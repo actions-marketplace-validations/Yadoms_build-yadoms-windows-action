@@ -31,16 +31,13 @@ inputs:
     required: true
   registry:
     description: 'The container registry '
-    required: false
-    default: ''
+    required: true
   username:
     description: 'The container registry username'
-    required: false
-    default: ''
+    required: true
   password:
     description: 'The container registry password/token'
-    required: false
-    default: ''
+    required: true
 outputs:
   yadomsVersion: 
     description: 'Yadoms version'
